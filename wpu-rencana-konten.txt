@@ -1,0 +1,7 @@
+rencana konten saya
+-membuat akun github
+ -git
+-belajar framework javascript
+  -belajar node js
+  -belajar angular
+-php
