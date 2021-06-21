@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript this</title>
+    <script type="text/javascript" src="mylib-html.js"></script>
+    <!-- <script type="text/javascript">
+    function infoObject(){
+        document.write("ukuran windows browser");
+        br();
+        document.write("InnerHeight:" + this.innerHeight);
+        br();
+        document.write("Innerwidth:" + this.innerWidth);
+    }
+    function infoTombol (me){
+        str="Anda Menekan Tombol";
+        str += "\n Nama Tombol:" + me.name;
+        str += "\n Text Tombol:" + me.value;
+        alert(str);
+    }
+    function warna (pilihan){
+        // alert("anda memilih awrna" + pilihan);
+        document.bgColor =pilihan;
+    }
+
+    </script> -->
+</head>
+<body>
+    <center>
+    <script type="text/javascript">
+    // br()
+    // br()
+    // br()
+    infoObject()
+    </script>
+    <form>
+        <input type="button" name="btn" value="klik saya" onclick="infoTombol(this)">
+        <h3 align="center">pilih warna background favorite anda.</h3>
+        <input type="button" value="biru" onclick="warna ('lightblue')">
+        <input type="button" value="pink" onclick="warna ('pink')">
+        <input type="button" value="merah" onclick="warna ('red')">
+        <input type="button" value="orange" onclick="warna ('orange')">
+        <input type="button" value="hitam" onclick="warna ('black')">
+    </form>
+</center>
+</body>
+</html>
